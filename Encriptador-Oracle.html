@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Challenge ONE Sprint 01</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="Encriptador.js"></script>
+  </head>
+  <body>
+    <div class="check">
+      <input
+        id="input_str"
+        class="input-text"
+        placeholder="Ingrese el texto aquí"
+        onkeyup="this.value = this.value.toUpperCase();"
+      />
+
+      <div class="div-buttons">
+        <button class="button-encriptar" onclick="encripta_()">
+          Encriptar
+        </button>
+        <button class="button-desencriptar" onclick="resuelve()">Desencriptar</button>
+      </div>
+
+      <div class="msg-box">
+        <div class="msg-missing" id="output_str">
+          Ningún texto fue encontrado!
+        </div>
+        <p class="msg-info">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+        <img src="icons/Muñeco.png" />
+      </div>
+
+      <img class="logo-alura" src="icons/alura-latam.png" alt="Logo" />
+      <p id="demo"></p>
+    </div>
+  </body>
+</html>

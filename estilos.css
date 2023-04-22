@@ -1,0 +1,137 @@
+.msg-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 470px;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: fixed;
+  top: 27%;
+  right: 5%;
+}
+
+.msg-box img {
+  margin-top: 20px;
+}
+
+.msg-box p {
+  margin: 20px;
+  text-align: center;
+}
+
+
+      .input-text {
+        background-color: transparent;
+        color: #0a3871;
+        font-family: "Inter", "Helvetica";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        height: auto;
+        left: 240px;
+        line-height: 48px;
+        position: absolute;
+        text-align: left;
+        top: 20%;
+        white-space: nowrap;
+        width: 577px;
+        border: none;
+      }
+
+      .input-text::placeholder {
+        color: #0a3871;
+      }
+
+      .div-buttons {
+        position: fixed;
+        align-items: flex-start;
+        background-color: transparent;
+        display: flex;
+        gap: 24px;
+        height: auto;
+        left: 240px;
+        position: absolute;
+        top: 80%;
+        width: 600px;
+      }
+
+
+      .div-info {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        gap: 8px;
+        height: auto;
+        left: 240px;
+        position: absolute;
+        top: 851px;
+        width: fit-content;
+      }
+
+      .msg-info {
+        align-self: stretch;
+        background-color: transparent;
+        color: #495057;
+        font-family: "Inter", "Helvetica";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        opacity: 0.8;
+        line-height: 24px;
+        position: relative;
+        text-align: center;
+      }
+
+
+      .msg-missing {
+        align-self: stretch;
+        background-color: transparent;
+        color: #343a40;
+        font-family: "Inter", "Helvetica";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28.8px;
+        margin-top: -1px;
+        mix-blend-mode: normal;
+        position: relative;
+        text-align: center;
+      }
+
+      .logo-alura {
+        height: 80px;
+        left: 80px;
+        position: absolute;
+        top: 80px;
+        width: 120px;
+      }
+
+      .button-encriptar {
+        background-color: #0a3871;
+        color: white;
+        border-radius: 24px;
+        padding: 20px 104px;
+        border: none;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .button-encriptar:active {
+        background-color: #87cefa;
+      }
+
+      .button-desencriptar {
+        background-color: #00C7DF;
+        color: white;
+        border-radius: 24px;
+        padding: 20px 88px;
+        border: none;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .button-desencriptar:active {
+        background-color: #87cefa;
+      }
